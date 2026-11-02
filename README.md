@@ -1,4 +1,4 @@
-# 🕵️‍♂️ IntelStudio — OSINT Platform Feature Catalog
+# 🕵️‍♂️ IntelSuite — OSINT Platform Feature Catalog
 
 > 🧭 A complete, structured reference of every capability across the platform's **feature categories** — from geospatial live-monitoring and identity intelligence to threat intel, vulnerability analysis, tracking boards, APIs and automation.
 
