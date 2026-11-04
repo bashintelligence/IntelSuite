@@ -6,7 +6,7 @@
 
 | 📌 Metric | 🔢 Value |
 |---|---|
-| 🗂️ Feature categories | **25** |
+| 🗂️ Feature categories | **8** |
 | ✨ Individual capabilities listed | **618** |
 | 🧱 Categories with nested sub-modules | **1** (Feature 1) |
 
@@ -16,41 +16,24 @@
 |---|---|
 | 🌍 Geospatial & Live Monitoring | 1 |
 | 🕊️ Humanitarian Documentation | 1 |
-| 👤 Identity, Breach & Account Intelligence | 2 |
-| 🌐 Infrastructure, Recon & Web Analysis | 4–10 |
-| 🧪 Threat, Malware & Exposure Intelligence | 11–14, 17–18 |
-| 🩺 Vulnerability & Exploit Intelligence | 15–16 |
 | 💰 Finance, Sanctions & AI Forecasting | 1 |
-| 🔌 Feeds, API, Automation & Deployment | 19–25 |
+| 👤 Identity, Breach & Account Intelligence | 2 |
 | 🎯 Public-Records & Wanted/Aircraft/Arms Tracking | 3 |
+| 🌐 Infrastructure, Recon & Web Analysis | 4 |
+| 🧪 Threat, Malware, Exposure & Infrastructure Intelligence | 5 |
+| 🩺 Vulnerability & Exploit Intelligence | 6 |
+| 🔌 Feeds, API, Automation & Deployment | 8 |
 
 ## 📑 Table of Contents
 
-1. 🗺️ [Interactive Intelligence Dashboards](#interactive-intelligence-dashboards)
-2. 📧 [Identity, Breach & Account Intelligence](#identity-breach-account-intelligence)
-3. 🎯 [TrackWanted — Wanted-Person and Public-Records Tracking](#trackwanted-wanted-person-and-public-records-tracking)
-4. 🧲 [OSINT Collection and Automation](#osint-collection-and-automation)
-5. 🌐 [Domain and DNS Reconnaissance](#domain-and-dns-reconnaissance)
-6. 📍 [IP and Network Intelligence](#ip-and-network-intelligence)
-7. 🔐 [TLS and Certificate Intelligence](#tls-and-certificate-intelligence)
-8. 🕷️ [Web Application Discovery](#web-application-discovery)
-9. 🧬 [Web Technology Fingerprinting](#web-technology-fingerprinting)
-10. 🛡️ [Web Security Configuration Analysis](#web-security-configuration-analysis)
-11. 🧪 [Threat Intelligence and IOC Enrichment](#threat-intelligence-and-ioc-enrichment)
-12. 🎭 [Threat-Actor and Campaign Analysis](#threat-actor-and-campaign-analysis)
-13. 🎣 [Phishing and Malware Intelligence](#phishing-and-malware-intelligence)
-14. ☁️ [Exposed Resource and Cloud Security Checks](#exposed-resource-and-cloud-security-checks)
-15. 🩺 [Vulnerability Assessment](#vulnerability-assessment)
-16. 💥 [Vulnerability and Exploit Intelligence](#vulnerability-and-exploit-intelligence)
-17. 🏢 [Hosting Provider and Registrar Intelligence](#hosting-provider-and-registrar-intelligence)
-18. 🗃️ [AttackCapture and File Intelligence](#attackcapture-and-file-intelligence)
-19. 🧮 [SQL-Based Threat Hunting](#sql-based-threat-hunting)
-20. 📥 [Threat Feeds and External Integrations](#threat-feeds-and-external-integrations)
-21. 🔌 [API, Automation, and MCP Integration](#api-automation-and-mcp-integration)
-22. 📝 [Investigation Reporting and Collaboration](#investigation-reporting-and-collaboration)
-23. ⌨️ [CLI, Profiles, and Scan Management](#cli-profiles-and-scan-management)
-24. ⚙️ [Data Collection, Processing, and Export](#data-collection-processing-and-export)
-25. 🧩 [Integration, Deployment, and Customization](#integration-deployment-and-customization)
+1. [Interactive Intelligence Dashboards](#interactive-intelligence-dashboards)
+2. [Identity, Breach & Account Intelligence](#identity-breach-account-intelligence)
+3. [TrackWanted — Wanted-Person and Public-Records Tracking](#trackwanted-wanted-person-and-public-records-tracking)
+4. [OSINT Collection, Reconnaissance and Web Intelligence](#osint-collection-reconnaissance-and-web-intelligence)
+5. [Threat, Malware, Exposure and Infrastructure Intelligence](#threat-malware-exposure-and-infrastructure-intelligence)
+6. [Vulnerability Assessment and Exploit Intelligence](#vulnerability-assessment-and-exploit-intelligence)
+7. [SQL-Based Threat Hunting](#sql-based-threat-hunting)
+8. [Threat Feeds and External Integrations](#threat-feeds-and-external-integrations)
 
 ---
 
@@ -436,6 +419,8 @@
 </details>
 ---
 
+---
+
 ## 📧 2. Identity, Breach & Account Intelligence
 
 > 💡 **Overview:** Email and username discovery, breach and infostealer exposure intelligence, identity relationship analysis, and continuous account-exposure monitoring.
@@ -473,6 +458,7 @@
 
 ---
 
+---
 
 ## 🎯 3. TrackWanted — Wanted-Person and Public-Records Tracking
 
@@ -493,11 +479,14 @@
 - 🧠 Public-source intelligence using notices, registries, news indexes, GDELT, public financial records and other traceable sources
 - 📚 Background research pages, daily briefings and dedicated tracking-board references
 - 🔄 Source-aware data refresh, registry updates, record corrections and takedown-request channels
-## 🧲 4. OSINT Collection and Automation
 
-> 💡 **Overview:** Automated OSINT collection across domains, DNS, WHOIS, RDAP, ASN and certificates.
+---
 
-**✨ Capabilities (9)**
+## 🧲 4. OSINT Collection, Reconnaissance and Web Intelligence
+
+> 💡 **Overview:** Unified OSINT collection and automation, domain and DNS reconnaissance, IP and network intelligence, TLS and certificate analysis, web application discovery, technology fingerprinting, and web security configuration assessment.
+
+**✨ Capabilities (101)**
 
 - 🔹 Automate open-source intelligence collection
 - 📍 Discover domains, subdomains, IP addresses, and netblocks
@@ -508,15 +497,6 @@
 - 🧱 Configure individual modules or broad scans
 - 🗓️ Schedule supported scans and automate workflows
 - 🔌 Use command-line and API-based execution
-
----
-
-## 🌐 5. Domain and DNS Reconnaissance
-
-> 💡 **Overview:** Comprehensive DNS, WHOIS/RDAP, passive DNS and subdomain reconnaissance.
-
-**✨ Capabilities (14)**
-
 - 🌐 DNS record enumeration
 - 🔹 DNSSEC checks
 - 🌐 DNS over HTTPS lookups
@@ -531,15 +511,6 @@
 - 🔹 Domain registration and infrastructure correlation
 - 🔎 Certificate transparency searches
 - 🕰️ DNS history and record-change analysis
-
----
-
-## 📍 6. IP and Network Intelligence
-
-> 💡 **Overview:** IP enrichment, geolocation, ASN, BGP/RPKI, port and service fingerprinting.
-
-**✨ Capabilities (18)**
-
 - 📍 IP address enrichment
 - 📍 IP geolocation and ASN information
 - 📍 Netblock and IP-range discovery
@@ -558,15 +529,6 @@
 - 🔹 UDP service sampling
 - 🔹 SSH banner and key fingerprinting
 - 🕰️ Port history and network-service history
-
----
-
-## 🔐 7. TLS and Certificate Intelligence
-
-> 💡 **Overview:** TLS/SSL certificate inspection, chain validation, cipher analysis and JARM fingerprints.
-
-**✨ Capabilities (12)**
-
 - 📜 SSL/TLS certificate inspection
 - 📜 Certificate-chain validation
 - 📜 Certificate-expiration checks
@@ -579,15 +541,6 @@
 - 📜 Rogue-certificate checks
 - 🔹 SSL Labs integration
 - 📜 Certificate-based infrastructure correlation
-
----
-
-## 🕷️ 8. Web Application Discovery
-
-> 💡 **Overview:** Crawling, content/directory discovery, API schema and hidden-surface enumeration.
-
-**✨ Capabilities (16)**
-
 - 🔹 Website crawling
 - 🔹 Content discovery
 - 🔹 Directory discovery
@@ -604,15 +557,6 @@
 - 🔹 File-upload surface discovery
 - 🔹 HTTP method enumeration
 - 🔹 HTTP/2 and HTTP/3 support detection
-
----
-
-## 🧬 9. Web Technology Fingerprinting
-
-> 💡 **Overview:** CMS, tech-stack, JS and third-party dependency fingerprinting.
-
-**✨ Capabilities (15)**
-
 - 🔹 CMS detection
 - 🔹 Technology-stack identification
 - 🔹 Web server fingerprinting
@@ -628,15 +572,6 @@
 - 🔹 HTML5 feature-abuse checks
 - 🔹 SEO-abuse detection
 - 🔹 Third-party integration discovery
-
----
-
-## 🛡️ 10. Web Security Configuration Analysis
-
-> 💡 **Overview:** Security header, CSP, CORS, cookie, email-auth (SPF/DKIM/DMARC) and compliance checks.
-
-**✨ Capabilities (17)**
-
 - 🔹 HTTP security-header checks
 - 🔹 Content Security Policy analysis
 - 🔹 CORS misconfiguration detection
@@ -657,11 +592,13 @@
 
 ---
 
-## 🧪 11. Threat Intelligence and IOC Enrichment
+---
 
-> 💡 **Overview:** IOC search and enrichment across IPs, domains, URLs and hashes with C2/phishing context.
+## 🧪 5. Threat, Malware, Exposure and Infrastructure Intelligence
 
-**✨ Capabilities (12)**
+> 💡 **Overview:** Consolidated threat intelligence, IOC enrichment, threat-actor and campaign analysis, phishing and malware investigation, exposed-resource and cloud checks, hosting-provider and registrar intelligence, and AttackCapture file analysis.
+
+**✨ Capabilities (64)**
 
 - 🔎 Search indicators of compromise
 - 📍 Enrich suspicious IP addresses, domains, URLs, and file hashes
@@ -675,15 +612,6 @@
 - ⏳ Build investigation timelines
 - 📊 Produce structured attack reports
 - 🔹 Reduce false positives through contextual enrichment
-
----
-
-## 🎭 12. Threat-Actor and Campaign Analysis
-
-> 💡 **Overview:** Threat-actor profiles, aliases, campaigns and infrastructure correlation.
-
-**✨ Capabilities (8)**
-
 - 🔎 Search threat-actor profiles
 - 🔹 Identify known aliases
 - 🔹 Examine associated infrastructure and indicators
@@ -692,15 +620,6 @@
 - 🔎 Search enriched threat signals
 - 🩹 Investigate relationships between actors, infrastructure, and vulnerabilities
 - 📤 Export supported investigation findings
-
----
-
-## 🎣 13. Phishing and Malware Intelligence
-
-> 💡 **Overview:** Phishing and malware infrastructure, payload, script and leak-source intelligence.
-
-**✨ Capabilities (11)**
-
 - 🎣 Identify phishing-related domains and infrastructure
 - 🦠 Investigate malware-associated hosts
 - 🔎 Search malware and phishing indicators
@@ -712,15 +631,6 @@
 - 🔹 Analyze JavaScript files for malicious characteristics
 - 🔹 Correlate files with infrastructure and other indicators
 - 👁️ Monitor supported paste and leak sources
-
----
-
-## ☁️ 14. Exposed Resource and Cloud Security Checks
-
-> 💡 **Overview:** Exposed directories, .env files, Git repos, cloud buckets and API endpoint discovery.
-
-**✨ Capabilities (11)**
-
 - 🔹 Discover publicly accessible directories
 - 🔎 Search exposed environment files
 - 🌿 Identify exposed Git repositories
@@ -732,14 +642,37 @@
 - 🔹 Preview supported file contents
 - 🔹 Inspect supported archives
 - 🔹 Correlate exposed resources with suspicious infrastructure
+- 📍 Identify hosting providers associated with IP addresses
+- 🔹 Correlate domains with hosting infrastructure
+- 🔹 Investigate providers associated with suspicious activity
+- 🔎 Search domain registrar information
+- 👁️ Monitor newly registered domains where supported
+- 🔹 Detect unusual domain-provisioning activity
+- 🔹 Group indicators by provider
+- 🔹 Discover related hosts and infrastructure clusters
+- 🔹 Investigate suspicious hosting patterns
+- 🔹 Discover exposed directory listings
+- 🔎 Search indexed files and code
+- 🧹 Filter by file name, extension, host, port, and available tags
+- 🧹 Filter by malware, IOC, package type, function, and intent where supported
+- 🔹 Preview supported file contents
+- 🔹 Highlight relevant keywords
+- 🔹 Retrieve available file metadata and headers
+- 🔹 Inspect supported archives
+- 🔎 Search by SHA-256 hash
+- 🔹 Classify files using available automated categorization
+- 💥 Discover exploit-related files
+- 🔹 Cluster similar artifacts
+- 📤 Export supported findings
+
 
 ---
 
-## 🩺 15. Vulnerability Assessment
+## 🩺 6. Vulnerability Assessment and Exploit Intelligence
 
-> 💡 **Overview:** Host/service discovery, CVE identification, config audits, CVSS prioritization and reporting.
+> 💡 **Overview:** Host/service discovery, vulnerability and CVE identification, security configuration audits, CVSS prioritization, KEV monitoring, exploit artifact discovery and classification, infrastructure correlation, remediation guidance and reporting.
 
-**✨ Capabilities (14)**
+**✨ Capabilities (25)**
 
 - 🔹 Discover reachable hosts and services
 - 🩹 Identify known vulnerabilities and CVEs
@@ -755,15 +688,6 @@
 - 🔹 Provide remediation recommendations
 - 📊 Generate vulnerability reports
 - 🔹 Compare supported scan results over time
-
----
-
-## 💥 16. Vulnerability and Exploit Intelligence
-
-> 💡 **Overview:** CVE search, KEV monitoring and exploit artifact classification and correlation.
-
-**✨ Capabilities (11)**
-
 - 🔎 Search CVE records
 - 🩹 Navigate related vulnerability information
 - 🩹 Identify vulnerabilities highlighted as weaponized
@@ -778,47 +702,9 @@
 
 ---
 
-## 🏢 17. Hosting Provider and Registrar Intelligence
-
-> 💡 **Overview:** Hosting provider and registrar intelligence, newly registered domains and cluster discovery.
-
-**✨ Capabilities (9)**
-
-- 📍 Identify hosting providers associated with IP addresses
-- 🔹 Correlate domains with hosting infrastructure
-- 🔹 Investigate providers associated with suspicious activity
-- 🔎 Search domain registrar information
-- 👁️ Monitor newly registered domains where supported
-- 🔹 Detect unusual domain-provisioning activity
-- 🔹 Group indicators by provider
-- 🔹 Discover related hosts and infrastructure clusters
-- 🔹 Investigate suspicious hosting patterns
-
 ---
 
-## 🗃️ 18. AttackCapture and File Intelligence
-
-> 💡 **Overview:** Exposed directory listing and file search with classification, preview and clustering.
-
-**✨ Capabilities (13)**
-
-- 🔹 Discover exposed directory listings
-- 🔎 Search indexed files and code
-- 🧹 Filter by file name, extension, host, port, and available tags
-- 🧹 Filter by malware, IOC, package type, function, and intent where supported
-- 🔹 Preview supported file contents
-- 🔹 Highlight relevant keywords
-- 🔹 Retrieve available file metadata and headers
-- 🔹 Inspect supported archives
-- 🔎 Search by SHA-256 hash
-- 🔹 Classify files using available automated categorization
-- 💥 Discover exploit-related files
-- 🔹 Cluster similar artifacts
-- 📤 Export supported findings
-
----
-
-## 🧮 19. SQL-Based Threat Hunting
+## 🧮 7. SQL-Based Threat Hunting
 
 > 💡 **Overview:** SQL-based hunting across IP, HTTP, malware, phishing and WHOIS datasets.
 
@@ -838,11 +724,13 @@
 
 ---
 
-## 📥 20. Threat Feeds and External Integrations
+---
 
-> 💡 **Overview:** C2, phishing and IOC feeds with filters, SIEM/SOC integration and webhooks.
+## 📥 8. Threat Feeds and External Integrations
 
-**✨ Capabilities (11)**
+> 💡 **Overview:** C2, phishing and IOC feeds with filters, SIEM/SOC integration and webhooks; REST/OpenAPI access, bulk enrichment and remote MCP integration; saved investigations, exports, team sharing, permissions, audit logs and SSO; interactive CLI with module management, profiles, concurrency and logging controls; data collection, normalization, correlation, caching, import/export and attribution; web dashboards, Docker deployment, custom modules and self-hosting.
+
+**✨ Capabilities (76)**
 
 - 📡 C2 infrastructure feeds
 - 🎣 Phishing intelligence feeds
@@ -855,15 +743,6 @@
 - 🔹 SIEM/SOC integration options where supported
 - 🔹 OEM intelligence integrations
 - 🔔 Webhook-based alert delivery where available
-
----
-
-## 🔌 21. API, Automation, and MCP Integration
-
-> 💡 **Overview:** REST/OpenAPI access, bulk enrichment and remote MCP integration for AI clients.
-
-**✨ Capabilities (12)**
-
 - 🔌 REST API access
 - 🔹 OpenAPI specifications
 - 🔌 API-based threat enrichment
@@ -876,15 +755,6 @@
 - 🤖 AI-client access to supported intelligence tools
 - 🔌 OAuth and scoped API-key support where available
 - 🔌 Configurable API limits and permissions
-
----
-
-## 📝 22. Investigation Reporting and Collaboration
-
-> 💡 **Overview:** Saved investigations, exports, team sharing, permissions, audit logs and SSO.
-
-**✨ Capabilities (13)**
-
 - 🔹 Save investigations and scan results
 - 📤 Export reports in supported formats
 - 📊 Generate PDF reports where available
@@ -898,15 +768,6 @@
 - 🧾 Maintain audit logs on eligible plans
 - 🪪 Use enterprise SSO/SAML where available
 - 📊 Customize report branding where supported
-
----
-
-## ⌨️ 23. CLI, Profiles, and Scan Management
-
-> 💡 **Overview:** Interactive CLI with module management, profiles, concurrency and logging controls.
-
-**✨ Capabilities (17)**
-
 - ⌨️ Interactive command-line interface
 - 🔎 List and search available modules
 - 🧱 Display module help and options
@@ -924,15 +785,6 @@
 - 🔹 Set request headers and user-agent strings
 - 🔹 Configure logging levels and destinations
 - 🔹 Clear console and reset supported settings
-
----
-
-## ⚙️ 24. Data Collection, Processing, and Export
-
-> 💡 **Overview:** Data collection, normalization, correlation, caching, import/export and attribution.
-
-**✨ Capabilities (10)**
-
 - 🔹 Collect data from public and configured sources
 - 🔹 Normalize supported data types
 - 🔹 Correlate entities across datasets
@@ -943,15 +795,6 @@
 - 📥 Import supported user-provided data
 - 🔹 Process lists of indicators in bulk
 - 🔹 Maintain source attribution and timestamps where available
-
----
-
-## 🧩 25. Integration, Deployment, and Customization
-
-> 💡 **Overview:** Web dashboards, CLI, Docker deployment, custom modules and self-hosting.
-
-**✨ Capabilities (13)**
-
 - 🔹 Web-based dashboards
 - ⌨️ Local command-line execution
 - 🔹 Python-based tooling where applicable
@@ -965,9 +808,6 @@
 - 🔹 Extensible data-source architecture
 - 🔹 Local deployment and self-hosting where supported
 - 🔹 Configurable scan and data-refresh settings
-
----
-
 
 ---
 
