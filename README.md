@@ -6,70 +6,51 @@
 
 | 📌 Metric | 🔢 Value |
 |---|---|
-| 🗂️ Feature categories | **44** |
-| ✨ Individual capabilities listed | **752** |
-| 🧱 Categories with nested sub-modules | **2** (Category 17 & Category 44) |
+| 🗂️ Feature categories | **25** |
+| ✨ Individual capabilities listed | **618** |
+| 🧱 Categories with nested sub-modules | **1** (Feature 1) |
 
 ## 🧱 Platform Pillars
 
 | 🏛️ Pillar | 🔢 Categories |
 |---|---|
-| 🌍 Geospatial & Live Monitoring | 1–8, 10, 12–16 |
-| 🕊️ Humanitarian Documentation | 17 |
-| 👤 Identity, Breach & Account Intelligence | 18–21 |
-| 🌐 Infrastructure, Recon & Web Analysis | 22–28 |
-| 🧪 Threat, Malware & Exposure Intelligence | 29–32, 35–36 |
-| 🩺 Vulnerability & Exploit Intelligence | 33–34 |
-| 💰 Finance, Sanctions & AI Forecasting | 9, 11 |
-| 🔌 Feeds, API, Automation & Deployment | 37–43 |
-| 🎯 Public-Records & Wanted/Aircraft/Arms Tracking | 44 |
+| 🌍 Geospatial & Live Monitoring | 1 |
+| 🕊️ Humanitarian Documentation | 1 |
+| 👤 Identity, Breach & Account Intelligence | 2 |
+| 🌐 Infrastructure, Recon & Web Analysis | 4–10 |
+| 🧪 Threat, Malware & Exposure Intelligence | 11–14, 17–18 |
+| 🩺 Vulnerability & Exploit Intelligence | 15–16 |
+| 💰 Finance, Sanctions & AI Forecasting | 1 |
+| 🔌 Feeds, API, Automation & Deployment | 19–25 |
+| 🎯 Public-Records & Wanted/Aircraft/Arms Tracking | 3 |
 
 ## 📑 Table of Contents
 
 1. 🗺️ [Interactive Intelligence Dashboards](#interactive-intelligence-dashboards)
-2. ✈️ [Aviation Intelligence](#aviation-intelligence)
-3. 🚢 [Maritime Intelligence](#maritime-intelligence)
-4. 🛰️ [Satellite and Space Intelligence](#satellite-and-space-intelligence)
-5. 🌋 [Earthquake and Environmental Monitoring](#earthquake-and-environmental-monitoring)
-6. 📹 [Public Camera Intelligence](#public-camera-intelligence)
-7. 🚦 [Traffic and Transportation Visualization](#traffic-and-transportation-visualization)
-8. 📰 [News, Conflict, and Geopolitical Monitoring](#news-conflict-and-geopolitical-monitoring)
-9. 💰 [Sanctions and Cryptocurrency Intelligence](#sanctions-and-cryptocurrency-intelligence)
-10. 📻 [Radio and Receiver Integrations](#radio-and-receiver-integrations)
-11. 🤖 [AI-Assisted Intelligence and Forecasting](#ai-assisted-intelligence-and-forecasting)
-12. 📷 [Live Webcam Intelligence](#live-webcam-intelligence)
-13. 📡 [Live News Monitoring](#live-news-monitoring)
-14. ⚔️ [Live Cyber Attack Monitoring](#live-cyber-attack-monitoring)
-15. 🌪️ [Live Earthquake and Natural Disaster Monitoring](#live-earthquake-and-natural-disaster-monitoring)
-16. 🪖 [Live Wars and Conflicts Monitoring](#live-wars-and-conflicts-monitoring)
-17. 🕊️ [Genocide Track — Data source: archivegenocide.com](#genocide-track--data-source-archivegenocidecom)
-18. 📧 [Email and Username Intelligence](#email-and-username-intelligence)
-19. 🔓 [Breach and Infostealer Intelligence](#breach-and-infostealer-intelligence)
-20. 🕸️ [Identity Relationship Analysis](#identity-relationship-analysis)
-21. 🔔 [Account and Exposure Monitoring](#account-and-exposure-monitoring)
-22. 🧲 [OSINT Collection and Automation](#osint-collection-and-automation)
-23. 🌐 [Domain and DNS Reconnaissance](#domain-and-dns-reconnaissance)
-24. 📍 [IP and Network Intelligence](#ip-and-network-intelligence)
-25. 🔐 [TLS and Certificate Intelligence](#tls-and-certificate-intelligence)
-26. 🕷️ [Web Application Discovery](#web-application-discovery)
-27. 🧬 [Web Technology Fingerprinting](#web-technology-fingerprinting)
-28. 🛡️ [Web Security Configuration Analysis](#web-security-configuration-analysis)
-29. 🧪 [Threat Intelligence and IOC Enrichment](#threat-intelligence-and-ioc-enrichment)
-30. 🎭 [Threat-Actor and Campaign Analysis](#threat-actor-and-campaign-analysis)
-31. 🎣 [Phishing and Malware Intelligence](#phishing-and-malware-intelligence)
-32. ☁️ [Exposed Resource and Cloud Security Checks](#exposed-resource-and-cloud-security-checks)
-33. 🩺 [Vulnerability Assessment](#vulnerability-assessment)
-34. 💥 [Vulnerability and Exploit Intelligence](#vulnerability-and-exploit-intelligence)
-35. 🏢 [Hosting Provider and Registrar Intelligence](#hosting-provider-and-registrar-intelligence)
-36. 🗃️ [AttackCapture and File Intelligence](#attackcapture-and-file-intelligence)
-37. 🧮 [SQL-Based Threat Hunting](#sql-based-threat-hunting)
-38. 📥 [Threat Feeds and External Integrations](#threat-feeds-and-external-integrations)
-39. 🔌 [API, Automation, and MCP Integration](#api-automation-and-mcp-integration)
-40. 📝 [Investigation Reporting and Collaboration](#investigation-reporting-and-collaboration)
-41. ⌨️ [CLI, Profiles, and Scan Management](#cli-profiles-and-scan-management)
-42. ⚙️ [Data Collection, Processing, and Export](#data-collection-processing-and-export)
-43. 🧩 [Integration, Deployment, and Customization](#integration-deployment-and-customization)
-44. 🎯 [TrackWanted — Wanted-Person and Public-Records Tracking](#trackwanted--wanted-person-and-public-records-tracking)
+2. 📧 [Identity, Breach & Account Intelligence](#identity-breach-account-intelligence)
+3. 🎯 [TrackWanted — Wanted-Person and Public-Records Tracking](#trackwanted-wanted-person-and-public-records-tracking)
+4. 🧲 [OSINT Collection and Automation](#osint-collection-and-automation)
+5. 🌐 [Domain and DNS Reconnaissance](#domain-and-dns-reconnaissance)
+6. 📍 [IP and Network Intelligence](#ip-and-network-intelligence)
+7. 🔐 [TLS and Certificate Intelligence](#tls-and-certificate-intelligence)
+8. 🕷️ [Web Application Discovery](#web-application-discovery)
+9. 🧬 [Web Technology Fingerprinting](#web-technology-fingerprinting)
+10. 🛡️ [Web Security Configuration Analysis](#web-security-configuration-analysis)
+11. 🧪 [Threat Intelligence and IOC Enrichment](#threat-intelligence-and-ioc-enrichment)
+12. 🎭 [Threat-Actor and Campaign Analysis](#threat-actor-and-campaign-analysis)
+13. 🎣 [Phishing and Malware Intelligence](#phishing-and-malware-intelligence)
+14. ☁️ [Exposed Resource and Cloud Security Checks](#exposed-resource-and-cloud-security-checks)
+15. 🩺 [Vulnerability Assessment](#vulnerability-assessment)
+16. 💥 [Vulnerability and Exploit Intelligence](#vulnerability-and-exploit-intelligence)
+17. 🏢 [Hosting Provider and Registrar Intelligence](#hosting-provider-and-registrar-intelligence)
+18. 🗃️ [AttackCapture and File Intelligence](#attackcapture-and-file-intelligence)
+19. 🧮 [SQL-Based Threat Hunting](#sql-based-threat-hunting)
+20. 📥 [Threat Feeds and External Integrations](#threat-feeds-and-external-integrations)
+21. 🔌 [API, Automation, and MCP Integration](#api-automation-and-mcp-integration)
+22. 📝 [Investigation Reporting and Collaboration](#investigation-reporting-and-collaboration)
+23. ⌨️ [CLI, Profiles, and Scan Management](#cli-profiles-and-scan-management)
+24. ⚙️ [Data Collection, Processing, and Export](#data-collection-processing-and-export)
+25. 🧩 [Integration, Deployment, and Customization](#integration-deployment-and-customization)
 
 ---
 
@@ -77,7 +58,7 @@
 
 > 💡 **Overview:** Interactive maps/globes that fuse every intelligence layer into one explorable, shareable workspace.
 
-**✨ Capabilities (14)**
+**✨ Capabilities (300)**
 
 - 🌍 Interactive world maps and globes
 - 🔹 Geographic visualization of available entities
@@ -93,15 +74,6 @@
 - 📹 Camera-tour recording
 - 🗺️ Custom map styles and visualization modes
 - 🔹 Keyboard shortcuts and navigation controls
-
----
-
-## ✈️ 2. Aviation Intelligence
-
-> 💡 **Overview:** Commercial, private and military aircraft tracking with metadata, trails and follow-cam modes.
-
-**✨ Capabilities (10)**
-
 - 📍 Track commercial aircraft
 - 📍 Track private aircraft where available
 - 📍 Track military aircraft where available
@@ -112,15 +84,6 @@
 - 🕰️ Show flight trails and historical routes where supported
 - 📹 Switch to aircraft-follow camera modes
 - ✈️ Render supported aircraft models in 3D
-
----
-
-## 🚢 3. Maritime Intelligence
-
-> 💡 **Overview:** AIS-based vessel tracking plus ports, chokepoints and maritime infrastructure investigation.
-
-**✨ Capabilities (7)**
-
 - 📍 Track vessels through supported AIS feeds
 - 🚢 Display vessel positions and metadata
 - 🗺️ Map global ports
@@ -128,15 +91,6 @@
 - 🚢 Follow selected vessels
 - 🔹 Display nearby maritime contacts
 - 🔹 Investigate maritime infrastructure and activity
-
----
-
-## 🛰️ 4. Satellite and Space Intelligence
-
-> 💡 **Overview:** Orbital object tracking, pass predictions, launch replays, solar weather and satellite imagery.
-
-**✨ Capabilities (8)**
-
 - 🛰️ Display satellite positions
 - 📍 Track orbital objects from supported catalogs
 - 🛰️ Display satellite metadata
@@ -145,15 +99,6 @@
 - 🔹 Replay supported launch trajectories
 - 👁️ Monitor solar weather
 - 🛰️ Display satellite imagery and cloud information from supported sources
-
----
-
-## 🌋 5. Earthquake and Environmental Monitoring
-
-> 💡 **Overview:** Earthquakes, wildfires, severe weather, cyclones and multi-date satellite comparison.
-
-**✨ Capabilities (9)**
-
 - 🌋 Display earthquake events
 - 🌋 Show earthquake magnitude and location
 - 👁️ Monitor active fire hotspots
@@ -163,15 +108,6 @@
 - 🔹 Visualize wind and temperature information
 - 📍 Track cyclones and forecast information
 - 🛰️ Compare available satellite imagery across dates
-
----
-
-## 📹 6. Public Camera Intelligence
-
-> 💡 **Overview:** Map and browse publicly accessible camera feeds, with GeoJSON export and source attribution.
-
-**✨ Capabilities (9)**
-
 - 🗺️ Map publicly accessible camera feeds
 - 📹 Open individual camera streams where available
 - 📂 Browse cameras by geographic region
@@ -181,15 +117,6 @@
 - 📹 Display camera markers and available metadata
 - 📹 Link to the original camera operator or feed
 - 📹 Estimate camera positions or orientations where exact data is unavailable
-
----
-
-## 🚦 7. Traffic and Transportation Visualization
-
-> 💡 **Overview:** Road networks, traffic, public transit vehicles, bike-share and transport infrastructure.
-
-**✨ Capabilities (7)**
-
 - 🔹 Display road networks
 - 🚦 Visualize traffic information where available
 - 🧪 Simulate vehicle movement along mapped roads where applicable
@@ -197,15 +124,6 @@
 - 📍 Track buses, trains, trams, subways, and ferries where feeds exist
 - 🔗 Show bike-share stations and availability where supported
 - 🗺️ Map transportation infrastructure
-
----
-
-## 📰 8. News, Conflict, and Geopolitical Monitoring
-
-> 💡 **Overview:** Live news, conflict-zone markers, geopolitical monitoring and geoparsed public Telegram posts.
-
-**✨ Capabilities (10)**
-
 - 📰 Display live news streams from supported broadcasters
 - 📰 Open related news sources
 - 🗺️ Map geographically associated news
@@ -216,15 +134,6 @@
 - 🗺️ Map publicly available Telegram posts when supported
 - 🔹 Geoparse public posts using location references
 - 🔹 Open the original public post for context
-
----
-
-## 💰 9. Sanctions and Cryptocurrency Intelligence
-
-> 💡 **Overview:** Sanctions screening across people, orgs, vessels and aircraft, BTC/ETH wallet investigation, and a Cryptonews.com crypto news/markets/tools sub-feature.
-
-**✨ Capabilities (77)**
-
 - 🔎 Search supported sanctions lists
 - 🔎 Search people, organizations, vessels, and aircraft
 - 🚫 Cross-check supported names against sanctions records
@@ -302,29 +211,11 @@
 - 🤝 Cryptonews: Affiliate Disclosure
 - ⚠️ Cryptonews: Financial Risk Disclaimer, Terms & Conditions and Privacy Policy
 - 📊 Cryptonews: Self-reported audience stats: 2M+ monthly users, 250+ guides and reviews, 8 years on the market
-
----
-
-## 📻 10. Radio and Receiver Integrations
-
-> 💡 **Overview:** Internet-radio geolocation and local RTL-SDR / ADS-B receiver integration.
-
-**✨ Capabilities (5)**
-
 - 📻 Display geolocated internet-radio stations
 - 📻 Integrate local RTL-SDR radio input where supported
 - 🔹 Integrate local ADS-B receivers
 - ✈️ Display locally received aircraft data
 - 🗺️ Combine local receiver data with map-based views
-
----
-
-## 🤖 11. AI-Assisted Intelligence and Forecasting
-
-> 💡 **Overview:** Natural-language, voice and AI-driven analysis, forecasting and scenario simulation.
-
-**✨ Capabilities (13)**
-
 - 🗣️ Natural-language questions about mapped intelligence
 - 🗺️ Voice-based map navigation
 - 🤖 Switch layers through supported AI commands
@@ -338,15 +229,6 @@
 - 🧪 Inject hypothetical events into supported simulations
 - 🔗 Share supported research runs
 - 🤖 Use configurable AI providers and API keys
-
----
-
-## 📷 12. Live Webcam Intelligence
-
-> 💡 **Overview:** Worldwide live public webcam mapping with filtering, bookmarks and stale-feed detection.
-
-**✨ Capabilities (11)**
-
 - 🗺️ Map live public webcam feeds worldwide
 - 📂 Browse cameras by country, city, or region
 - 🧹 Filter cameras by category (traffic, weather, landmark, indoor/outdoor)
@@ -358,15 +240,6 @@
 - 📹 Detect offline or stale camera feeds
 - 📹 Link to the original camera operator or source page
 - 📤 Export camera locations as GeoJSON
-
----
-
-## 📡 13. Live News Monitoring
-
-> 💡 **Overview:** Real-time news streams, breaking alerts, trend tracking and historical news archive.
-
-**✨ Capabilities (10)**
-
 - 📰 Stream live news broadcasts from supported global sources
 - 🔔 Display real-time breaking-news alerts
 - 🧹 Filter news by region, topic, or category
@@ -377,15 +250,6 @@
 - 📰 Correlate live news events with other mapped intelligence layers
 - 🔎 Archive and search historical news coverage
 - 📰 Translate supported non-English news sources
-
----
-
-## ⚔️ 14. Live Cyber Attack Monitoring
-
-> 💡 **Overview:** Real-time global cyberattack visualization, DDoS, botnet, honeypot and ransomware monitoring.
-
-**✨ Capabilities (11)**
-
 - 🔹 Display real-time global cyberattack visualizations
 - 📍 Track live DDoS attack activity where supported
 - 🗺️ Map active malware and botnet infection sources
@@ -397,15 +261,6 @@
 - 🧹 Filter live attacks by type, origin, target country, or sector
 - 🔹 Generate live attack summary statistics
 - 🕰️ Replay historical attack activity over time
-
----
-
-## 🌪️ 15. Live Earthquake and Natural Disaster Monitoring
-
-> 💡 **Overview:** Live earthquake, volcano, wildfire, flood, tsunami and storm monitoring with alerting.
-
-**✨ Capabilities (10)**
-
 - 🌋 Display real-time earthquake events as they are detected
 - 🔹 Show live magnitude, depth, and epicenter data
 - 👁️ Monitor active volcanic activity where supported
@@ -417,13 +272,6 @@
 - 🔔 Send configurable alerts for new disaster events
 - 🕰️ Compare live disaster data against historical baselines
 
----
-
-## 🪖 16. Live Wars and Conflicts Monitoring
-
-> 💡 **Overview:** Live conflict-zone tracking, strike mapping, airspace closures and source-linked incident reports.
-
-**✨ Capabilities (10)**
 
 - ⚔️ Display live conflict-zone markers and front-line estimates
 - 📍 Track real-time reported military activity where sourced
@@ -435,14 +283,6 @@
 - 📍 Track live sanctions and diplomatic-response updates
 - 📰 Correlate live conflict data with news and geopolitical layers
 - 📊 Display source-linked live incident reports
-
----
-
-## 🕊️ 17. Genocide Track — Data source: archivegenocide.com
-
-> 💡 **Overview:** Documentation archive for Gaza and the West Bank: searchable footage, geolocation, event graph, memorial, verification and distribution tooling.
-
-**🧱 Sub-modules (12)**
 
 <details>
 <summary>🔎 <b>Archive Search and Browsing</b> — 12 capabilities</summary>
@@ -594,15 +434,13 @@
 - 🔹 Publish-to-live control
 
 </details>
-
-
 ---
 
-## 📧 18. Email and Username Intelligence
+## 📧 2. Identity, Breach & Account Intelligence
 
-> 💡 **Overview:** Email and username search with cross-platform account discovery and enrichment.
+> 💡 **Overview:** Email and username discovery, breach and infostealer exposure intelligence, identity relationship analysis, and continuous account-exposure monitoring.
 
-**✨ Capabilities (8)**
+**✨ Capabilities (28)**
 
 - 🔎 Search email addresses and usernames
 - 🔹 Discover accounts registered across online platforms
@@ -612,15 +450,6 @@
 - 🔹 Enrich identities using public and third-party data sources
 - 🔹 Stream lookup results as they become available
 - 📧 Perform bulk email and username lookups
-
----
-
-## 🔓 19. Breach and Infostealer Intelligence
-
-> 💡 **Overview:** Breach and infostealer exposure search with monitoring and exposure reports.
-
-**✨ Capabilities (7)**
-
 - 🔎 Search breach records associated with email addresses
 - 🔑 Identify exposed email addresses, names, phone numbers, and password-related records
 - 📜 Investigate infostealer-log exposure
@@ -628,15 +457,6 @@
 - 🔓 View breach sources, dates, and exposed data categories
 - 👁️ Monitor identifiers for new exposures
 - 📊 Generate exposure summaries and reports
-
----
-
-## 🕸️ 20. Identity Relationship Analysis
-
-> 💡 **Overview:** Relationship graphs, timelines and cross-platform correlation of identifiers.
-
-**✨ Capabilities (7)**
-
 - 🔓 Visualize connections between emails, usernames, accounts, and breaches
 - 🕸️ Build interactive relationship graphs
 - 🔗 Trace shared identifiers
@@ -644,15 +464,6 @@
 - ⏳ Build chronological activity timelines
 - 🔹 Add multiple identifiers to an investigation
 - 🔹 Annotate findings and preserve investigation context
-
----
-
-## 🔔 21. Account and Exposure Monitoring
-
-> 💡 **Overview:** Continuous monitoring of emails, domains and usernames with alerts and webhooks.
-
-**✨ Capabilities (6)**
-
 - 👁️ Monitor email addresses, domains, and usernames
 - 🔓 Detect newly discovered breaches and infostealer records
 - 📍 Track newly discovered account registrations
@@ -662,7 +473,27 @@
 
 ---
 
-## 🧲 22. OSINT Collection and Automation
+
+## 🎯 3. TrackWanted — Wanted-Person and Public-Records Tracking
+
+> 💡 **Overview:** TrackWanted brings wanted-person notices, aircraft tracking, financial activity, arms transfers, emissions and public-record research together in a unified 3D globe and set of dedicated tracking boards.
+
+**✨ Key Features (13)**
+
+- 🌍 Unified interactive 3D globe for exploring tracking categories and geographic context
+- 🚨 Public wanted-person notices, indexed cases, location estimates and source-linked case details
+- 🛩️ Private-jet tracking with aircraft registration, operator, ownership and route information
+- 🎖️ Military and government aircraft tracking, including aircraft details, callsigns and available route histories
+- 💸 Financial intelligence covering documented acquisitions, share sales, forfeitures and other reported money movements
+- 🌫️ Aviation-emissions estimates, worldwide emitter information and air-quality data with methodology context
+- 🔢 Aircraft registration lookup with FAA and Planespotters cross-references
+- 🚀 Arms-transfer intelligence covering supplier and recipient countries, equipment categories, reported values and transfer status
+- 📇 A-Z directory connecting tracked people, wanted subjects, aircraft operators, callsigns and related records
+- 🔍 Search, filtering, sorting and navigation across aircraft, arms-transfer and subject records
+- 🧠 Public-source intelligence using notices, registries, news indexes, GDELT, public financial records and other traceable sources
+- 📚 Background research pages, daily briefings and dedicated tracking-board references
+- 🔄 Source-aware data refresh, registry updates, record corrections and takedown-request channels
+## 🧲 4. OSINT Collection and Automation
 
 > 💡 **Overview:** Automated OSINT collection across domains, DNS, WHOIS, RDAP, ASN and certificates.
 
@@ -680,7 +511,7 @@
 
 ---
 
-## 🌐 23. Domain and DNS Reconnaissance
+## 🌐 5. Domain and DNS Reconnaissance
 
 > 💡 **Overview:** Comprehensive DNS, WHOIS/RDAP, passive DNS and subdomain reconnaissance.
 
@@ -703,7 +534,7 @@
 
 ---
 
-## 📍 24. IP and Network Intelligence
+## 📍 6. IP and Network Intelligence
 
 > 💡 **Overview:** IP enrichment, geolocation, ASN, BGP/RPKI, port and service fingerprinting.
 
@@ -730,7 +561,7 @@
 
 ---
 
-## 🔐 25. TLS and Certificate Intelligence
+## 🔐 7. TLS and Certificate Intelligence
 
 > 💡 **Overview:** TLS/SSL certificate inspection, chain validation, cipher analysis and JARM fingerprints.
 
@@ -751,7 +582,7 @@
 
 ---
 
-## 🕷️ 26. Web Application Discovery
+## 🕷️ 8. Web Application Discovery
 
 > 💡 **Overview:** Crawling, content/directory discovery, API schema and hidden-surface enumeration.
 
@@ -776,7 +607,7 @@
 
 ---
 
-## 🧬 27. Web Technology Fingerprinting
+## 🧬 9. Web Technology Fingerprinting
 
 > 💡 **Overview:** CMS, tech-stack, JS and third-party dependency fingerprinting.
 
@@ -800,7 +631,7 @@
 
 ---
 
-## 🛡️ 28. Web Security Configuration Analysis
+## 🛡️ 10. Web Security Configuration Analysis
 
 > 💡 **Overview:** Security header, CSP, CORS, cookie, email-auth (SPF/DKIM/DMARC) and compliance checks.
 
@@ -826,7 +657,7 @@
 
 ---
 
-## 🧪 29. Threat Intelligence and IOC Enrichment
+## 🧪 11. Threat Intelligence and IOC Enrichment
 
 > 💡 **Overview:** IOC search and enrichment across IPs, domains, URLs and hashes with C2/phishing context.
 
@@ -847,7 +678,7 @@
 
 ---
 
-## 🎭 30. Threat-Actor and Campaign Analysis
+## 🎭 12. Threat-Actor and Campaign Analysis
 
 > 💡 **Overview:** Threat-actor profiles, aliases, campaigns and infrastructure correlation.
 
@@ -864,7 +695,7 @@
 
 ---
 
-## 🎣 31. Phishing and Malware Intelligence
+## 🎣 13. Phishing and Malware Intelligence
 
 > 💡 **Overview:** Phishing and malware infrastructure, payload, script and leak-source intelligence.
 
@@ -884,7 +715,7 @@
 
 ---
 
-## ☁️ 32. Exposed Resource and Cloud Security Checks
+## ☁️ 14. Exposed Resource and Cloud Security Checks
 
 > 💡 **Overview:** Exposed directories, .env files, Git repos, cloud buckets and API endpoint discovery.
 
@@ -904,7 +735,7 @@
 
 ---
 
-## 🩺 33. Vulnerability Assessment
+## 🩺 15. Vulnerability Assessment
 
 > 💡 **Overview:** Host/service discovery, CVE identification, config audits, CVSS prioritization and reporting.
 
@@ -927,7 +758,7 @@
 
 ---
 
-## 💥 34. Vulnerability and Exploit Intelligence
+## 💥 16. Vulnerability and Exploit Intelligence
 
 > 💡 **Overview:** CVE search, KEV monitoring and exploit artifact classification and correlation.
 
@@ -947,7 +778,7 @@
 
 ---
 
-## 🏢 35. Hosting Provider and Registrar Intelligence
+## 🏢 17. Hosting Provider and Registrar Intelligence
 
 > 💡 **Overview:** Hosting provider and registrar intelligence, newly registered domains and cluster discovery.
 
@@ -965,7 +796,7 @@
 
 ---
 
-## 🗃️ 36. AttackCapture and File Intelligence
+## 🗃️ 18. AttackCapture and File Intelligence
 
 > 💡 **Overview:** Exposed directory listing and file search with classification, preview and clustering.
 
@@ -987,7 +818,7 @@
 
 ---
 
-## 🧮 37. SQL-Based Threat Hunting
+## 🧮 19. SQL-Based Threat Hunting
 
 > 💡 **Overview:** SQL-based hunting across IP, HTTP, malware, phishing and WHOIS datasets.
 
@@ -1007,7 +838,7 @@
 
 ---
 
-## 📥 38. Threat Feeds and External Integrations
+## 📥 20. Threat Feeds and External Integrations
 
 > 💡 **Overview:** C2, phishing and IOC feeds with filters, SIEM/SOC integration and webhooks.
 
@@ -1027,7 +858,7 @@
 
 ---
 
-## 🔌 39. API, Automation, and MCP Integration
+## 🔌 21. API, Automation, and MCP Integration
 
 > 💡 **Overview:** REST/OpenAPI access, bulk enrichment and remote MCP integration for AI clients.
 
@@ -1048,7 +879,7 @@
 
 ---
 
-## 📝 40. Investigation Reporting and Collaboration
+## 📝 22. Investigation Reporting and Collaboration
 
 > 💡 **Overview:** Saved investigations, exports, team sharing, permissions, audit logs and SSO.
 
@@ -1070,7 +901,7 @@
 
 ---
 
-## ⌨️ 41. CLI, Profiles, and Scan Management
+## ⌨️ 23. CLI, Profiles, and Scan Management
 
 > 💡 **Overview:** Interactive CLI with module management, profiles, concurrency and logging controls.
 
@@ -1096,7 +927,7 @@
 
 ---
 
-## ⚙️ 42. Data Collection, Processing, and Export
+## ⚙️ 24. Data Collection, Processing, and Export
 
 > 💡 **Overview:** Data collection, normalization, correlation, caching, import/export and attribution.
 
@@ -1115,7 +946,7 @@
 
 ---
 
-## 🧩 43. Integration, Deployment, and Customization
+## 🧩 25. Integration, Deployment, and Customization
 
 > 💡 **Overview:** Web dashboards, CLI, Docker deployment, custom modules and self-hosting.
 
@@ -1137,244 +968,13 @@
 
 ---
 
-## 🎯 44. TrackWanted — Wanted-Person and Public-Records Tracking
-
-> 💡 **Overview:** TrackWanted: wanted notices, private/military jets, money trail, arms trail, emissions and registry lookups on a 3D globe.
-
-**🧱 Sub-modules (13)**
-
-<details>
-<summary>🌍 <b>Interactive 3D Globe</b> — 8 capabilities</summary>
-
-- 📍 Unified globe interface for viewing multiple tracking categories
-- 🚨 Visualize wanted-person location estimates
-- ✈️ Visualize private and government aircraft routes
-- ✈️ Display military and government aircraft
-- 🗺️ Map documented financial movements between cities
-- 🌫️ Visualize estimated aviation emissions and air-quality data
-- 📍 Switch between tracking boards
-- 🔹 Display geographic uncertainty and confidence information where available
-
-</details>
-
-<details>
-<summary>🚨 <b>Wanted-Person Tracking</b> — 11 capabilities</summary>
-
-- 📂 Browse publicly published wanted notices
-- 🚨 View indexed wanted cases
-- 🔹 Identify the police agency or authority associated with a notice
-- 📊 View estimated locations derived from public reporting
-- 🗺️ Display location uncertainty on the map
-- 🔹 Display confidence scores for location estimates
-- 🚨 Open individual wanted-subject pages
-- 📊 View associated source links and public reporting
-- 📂 Browse a most-wanted list
-- 📍 Explore a directory of tracked wanted subjects
-- 🔹 Review available case background and published details
-
-</details>
-
-<details>
-<summary>🛩️ <b>Private Jet Tracking</b> — 12 capabilities</summary>
-
-- 📂 Browse indexed private aircraft
-- 📍 Track aircraft associated with billionaires and other public figures
-- 📍 Track aircraft associated with heads of state and government operators
-- ✈️ View aircraft registration or tail numbers
-- ✈️ View aircraft type and model information
-- 🔹 View associated operators and ownership information where available
-- ✈️ Cross-check aircraft registrations against the FAA registry and Planespotters
-- ✈️ Visualize aircraft routes
-- 🔹 Display estimated fuel burn for individual flight legs
-- 📂 Browse individual aircraft and operator pages
-- 🕰️ Review available route history and sourcing
-- 📍 Access a private-jet tracker and celebrity-jet directory
-
-</details>
-
-<details>
-<summary>🎖️ <b>Military and Government Aircraft Tracking</b> — 12 capabilities</summary>
-
-- 📂 Browse indexed military airframes
-- 📂 Browse government aircraft and fleets
-- ✈️ View aircraft type and model information
-- 📞 View military callsigns
-- 🗣️ Interpret callsign patterns using plain-language explanations
-- ✈️ Explore transport aircraft
-- ✈️ Explore tanker aircraft
-- ✈️ Explore command aircraft
-- ✈️ Explore airborne early-warning aircraft
-- ✈️ View aircraft and fleet pages
-- 🔹 Review available route histories and source information
-- ✈️ Visualize military and government aircraft movements on the globe
-
-</details>
-
-<details>
-<summary>💸 <b>Money Trail and Financial Intelligence</b> — 11 capabilities</summary>
-
-- 📂 Browse large, documented financial movements
-- 📍 Track reported acquisitions
-- 🔗 Track share sales
-- 📍 Track forfeitures
-- 🔹 Review transfer fees
-- 🔹 Review catalogue deals
-- 🔹 Associate transactions with named people or entities where documented
-- 🗺️ Map financial movements between cities
-- 🔹 View the source associated with each displayed record
-- 📂 Browse the dedicated money-trail board
-- 📍 Access background articles and related tracked-subject pages
-
-</details>
-
-<details>
-<summary>🌫️ <b>Carbon Emissions and Air Quality</b> — 10 capabilities</summary>
-
-- ✈️ Estimate CO2 emissions for individual aircraft flight legs
-- 🌫️ Calculate estimated emissions using published fuel-burn rates
-- 🌫️ Use great-circle distance in emissions modelling
-- 🌫️ Visualize aviation emissions geographically
-- 🌫️ Compare industrial and aviation emissions information
-- 🔹 Display worldwide emitter information
-- 🌫️ Display worldwide air-quality readings
-- 📍 Explore the carbon-emissions tracker
-- 🌫️ View the assumptions behind modelled emissions data
-- 🌫️ Refresh air-quality readings at the interval stated by the source website
-
-</details>
-
-<details>
-<summary>🔢 <b>Aircraft Registration Lookup</b> — 12 capabilities</summary>
-
-- 🔎 Search by aircraft registration or tail number
-- ✈️ Retrieve indexed aircraft information
-- ✈️ Identify aircraft type and model
-- 🔹 Retrieve operator information where available
-- 📘 Cross-reference registrations with official registry information
-- 📘 Link to FAA registry records
-- 🔹 Link to Planespotters records
-- ✈️ View associated aircraft or operator pages
-- 📘 Use a registry index that is rebuilt weekly
-- 📂 Browse US N-number lookup resources
-- 📂 Browse aircraft registration-prefix references
-- ✈️ Access aircraft ownership-related background resources
-
-</details>
-
-<details>
-<summary>🚀 <b>Arms Trail and Weapons Transfers</b> — 21 capabilities</summary>
-
-- 📂 Browse documented weapons transfers between governments
-- 🔹 Identify supplier and recipient countries
-- 🔹 View transfer descriptions
-- 📊 View reported financial values where available
-- 📂 Browse transfers by year
-- 📂 Browse combat-aircraft transfers
-- 📂 Browse air and missile defence systems
-- 📂 Browse drone transfers
-- 📂 Browse naval equipment transfers
-- 📂 Browse armour and tank transfers
-- 📂 Browse artillery transfers
-- 📂 Browse missile transfers
-- 📂 Browse munitions transfers
-- 📂 Browse mixed military assistance packages
-- 🧹 Filter records by systems, suppliers and recipients
-- ↕️ Sort records by recent, value or alphabetical order
-- 📤 View transfer status, such as ordered, delivered, in delivery or export approved, where listed
-- 📊 View quantities where reported
-- 🔹 View source information and sourcing-confidence indicators
-- 🗺️ Map transfers from supplier to recipient
-- 🚀 Access the dedicated arms-trail board
-
-</details>
-
-<details>
-<summary>📇 <b>Tracked Subjects Directory</b> — 9 capabilities</summary>
-
-- 📍 Browse an A-Z directory of tracked subjects
-- 🔹 Open individual public-figure pages
-- ✈️ Open aircraft operator pages
-- 📞 Open military callsign pages
-- 🚨 Open wanted-subject pages
-- ✈️ View related aircraft registrations
-- 🔹 Review available route histories
-- 🔹 Access related source links
-- 📍 Navigate between related subjects and tracking boards
-
-</details>
-
-<details>
-<summary>🔍 <b>Search, Filtering and Sorting</b> — 8 capabilities</summary>
-
-- 🔎 Search aircraft by registration
-- 🧹 Filter arms-transfer records by systems, suppliers and recipients
-- ↕️ Sort arms records by recency
-- ↕️ Sort arms records by value
-- ↕️ Sort arms records alphabetically
-- 📂 Browse records by category
-- 🔹 Navigate between dedicated boards
-- 📍 Open detailed subject and aircraft pages from the tracker
-
-</details>
-
-<details>
-<summary>🧠 <b>Public-Source Intelligence and AI Summaries</b> — 12 capabilities</summary>
-
-- 🚨 Aggregate publicly available wanted notices and designations
-- 🚫 Use Interpol notices, national agency listings, sanctions designations and court records
-- ✈️ Use the FAA civil aircraft registry and Planespotters for aircraft identity checks
-- 📊 Gather open reporting from news indexes and the GDELT global event database
-- 📊 Use name variants to find reporting across different languages
-- 💵 Draw on public financial records, company registries and the ICIJ Offshore Leaks database
-- 💵 Use public blockchain explorers as a source for financial research
-- 🔹 Extract structured facts such as who, where, when and how much from retrieved documents
-- 🔹 Produce summaries linked to their source material
-- 🔹 Discard information that cannot be traced to a retrieved public source
-- 📊 Distinguish reported information from modelled estimates
-- 🔹 Display source links for readers to verify the underlying information
-
-</details>
-
-<details>
-<summary>📚 <b>Background Research and Reference Pages</b> — 14 capabilities</summary>
-
-- 🔹 Daily briefing
-- 🚨 Most-wanted list
-- 📍 Private-jet tracker
-- 📍 Military-aircraft tracker
-- 📍 Carbon-emissions tracker
-- 🔹 Money-trail reference page
-- 🚀 Arms-trail reference page
-- ✈️ Aircraft ownership information
-- ✈️ Aircraft registration lookup
-- 🔹 US N-number lookup
-- ✈️ Aircraft registration-prefix reference
-- 🛩️ Celebrity-jet directory
-- 📍 Guide on how to track a jet
-- 🔹 Explanation of the platform's methodology
-
-</details>
-
-<details>
-<summary>🔄 <b>Data Refresh and Record Corrections</b> — 7 capabilities</summary>
-
-- 📊 Refresh wanted-board information from open reporting twice daily
-- 📊 Refresh money-trail information from open reporting twice daily
-- ✈️ Rebuild the aircraft registry index weekly
-- 🌫️ Refresh air-quality readings every ten minutes, according to the methodology page
-- 🔹 Update boards when underlying public sources change
-- 🔹 Provide a contact page for corrections and takedown requests
-- 🔹 Correct entries against published sources when the public record changes
-
-</details>
-
 
 ---
 
 ## 🧾 Notes & Conventions
 
 - 🧩 Phrases such as *“where supported”*, *“where available”* and *“where implemented”* indicate capabilities that depend on the underlying data source, feed or deployment configuration.
-- 🔗 Category 17 draws on the external archive **archivegenocide.com**; Category 44 (TrackWanted) draws on public sources including Interpol notices, the FAA registry, Planespotters, GDELT and ICIJ Offshore Leaks.
-- 🔄 Refresh cadences noted in Category 44: wanted board & money trail **twice daily**, aircraft registry index **weekly**, air-quality readings **every 10 minutes**.
-- 📰 The Cryptonews.com capabilities listed at the end of Category 9 were compiled from the cryptonews.com homepage and site navigation (snapshot of 2 Nov 2026); article counts, prices and audience stats are point-in-time or self-reported by the site.
+- 🔗 Feature 1 includes the external archive **archivegenocide.com**; Feature 3 (TrackWanted) draws on public sources including Interpol notices, the FAA registry, Planespotters, GDELT and ICIJ Offshore Leaks.
+- 🔄 Refresh cadences noted in Feature 3: wanted board & money trail **twice daily**, aircraft registry index **weekly**, air-quality readings **every 10 minutes**.
+- 📰 The Cryptonews.com capabilities listed at the end of Feature 1 were compiled from the cryptonews.com homepage and site navigation (snapshot of 2 Nov 2026); article counts, prices and audience stats are point-in-time or self-reported by the site.
 - ⚖️ Source attribution, confidence indicators and correction/takedown channels are built into the tracking modules.
