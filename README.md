@@ -8,7 +8,7 @@
 |---|---|
 | 🗂️ Feature categories | **8** |
 | ✨ Individual capabilities listed | **618** |
-| 🧱 Categories with nested sub-modules | **1** (Feature 1) |
+| 🧱 Categories with nested sub-modules | **0** |
 
 ## 🧱 Platform Pillars
 
@@ -255,7 +255,6 @@
 - 🔔 Send configurable alerts for new disaster events
 - 🕰️ Compare live disaster data against historical baselines
 
-
 - ⚔️ Display live conflict-zone markers and front-line estimates
 - 📍 Track real-time reported military activity where sourced
 - 👁️ Monitor live airspace closures and NOTAMs in conflict regions
@@ -266,9 +265,6 @@
 - 📍 Track live sanctions and diplomatic-response updates
 - 📰 Correlate live conflict data with news and geopolitical layers
 - 📊 Display source-linked live incident reports
-
-<details>
-<summary>🔎 <b>Archive Search and Browsing</b> — 12 capabilities</summary>
 
 - 🔎 Full-text and media search across the 156,000+ documented videos and photos
 - 🧹 Filter by verified footage, uncaptioned footage, or text posts
@@ -283,47 +279,22 @@
 - ⬇️ Download an entry
 - 🔎 Ask the "Iris" search assistant for help navigating the archive
 
-</details>
-
-<details>
-<summary>📄 <b>Text Index / Plain-Text Browse</b> — 2 capabilities</summary>
-
 - 🔎 Paginated plain-text index of all 41,065+ documented clips, built for search-engine indexing
 - 🔹 Page-by-page navigation through the full clip index
-
-</details>
-
-<details>
-<summary>🗂️ <b>Topic Browse</b> — 3 capabilities</summary>
 
 - 📂 Browse by location, each with a clip count (e.g. Gaza City, Khan Younis, Deir al-Balah, Jabalia, Rafah, Nablus, Jenin, Hebron, Ramallah and others)
 - 📂 Browse by facility, each with a clip count (named hospitals including Kamal Adwan, Nasser, Al-Aqsa Martyrs, Al-Ahli Baptist, Al-Shifa, Al-Awda, Indonesian, Al-Rantisi Children's, European Gaza and Al-Quds)
 - 📂 Browse by event type, each with a clip count (e.g. attacks on children, attacks on hospitals, forced displacement, attacks on journalists, attacks on schools and shelters, attacks on ambulances and medics, detainees and stripped prisoners, attacks on tents and displacement camps, attacks on mosques, sniper attacks, executions and white-flag killings, attacks on aid seekers, attacks on UN and UNRWA sites, white phosphorus, attacks on churches, attacks on bakeries and food)
 
-</details>
-
-<details>
-<summary>🕯️ <b>Victims Memorial</b> — 3 capabilities</summary>
-
 - 🔎 Searchable memorial list of identified Palestinians killed in Gaza, as recorded by the Gaza Ministry of Health
 - 🔹 Paginated memorial index of all identified names
 - 🔎 Search all names
-
-</details>
-
-<details>
-<summary>📆 <b>Daily Reports</b> — 5 capabilities</summary>
 
 - 📜 Day-by-day war log numbered by the day of the war (Day 1 = 7 October 2023)
 - 🔹 Digest of strikes, casualties, sieges, and West Bank and regional events per day
 - ↕️ Sort reports (newest or oldest)
 - ⬇️ Download all reports as a single PDF
 - ⏳ Reports sourced from Telegram and Discord channels, with coverage gaps marked in the timeline
-
-</details>
-
-<details>
-<summary>📌 <b>Geolocation Map</b> — 8 capabilities</summary>
 
 - 🗺️ Interactive map placing archive footage at the location it was filmed
 - 🧹 Filter by place, date, and kind of attack
@@ -333,11 +304,6 @@
 - 🔹 Location-confidence classification (exact, hospital, awaiting review, approximate building, approximate neighbourhood or town, independent with no footage yet, sources disagree)
 - ⬇️ Download the underlying geolocation data
 - 🗺️ Ask the "Iris" assistant for help navigating the map
-
-</details>
-
-<details>
-<summary>🔗 <b>Node (Event) Graph Map</b> — 17 capabilities</summary>
 
 - 🕸️ Graph view of documented incidents as connected nodes for events, people, places, facilities and named actors
 - 🔎 Structured search syntax (e.g. cat:massacre place:rafah, killed:>10, clips:>3, date ranges)
@@ -357,11 +323,6 @@
 - 🔹 Published list of casualty figures the project examined and rejected, with the reason for rejection
 - 🗺️ Ask the "Iris" assistant for help navigating the node map
 
-</details>
-
-<details>
-<summary>✅ <b>Verified Sources Directory</b> — 8 capabilities</summary>
-
 - 🔹 Curated list of archive source channels (Telegram, Discord, TikTok-based), each with an item count and description
 - 🔹 Curated list of Instagram journalists and photographers, with notable-source flags
 - 🔹 Curated list of Telegram channels
@@ -371,22 +332,12 @@
 - 🔹 Curated list of partner websites, databases and documentation projects
 - 🔎 Search within the sources list
 
-</details>
-
-<details>
-<summary>💾 <b>Download / Archive Distribution</b> — 6 capabilities</summary>
-
 - 🧲 Signed official torrent releases of the complete curated archive
 - 🔹 Open-source website, front-end and server code on GitHub and Codeberg for self-hosting a mirror
 - 🧲 Magnet links and .torrent files for each release volume
 - 🧲 Full raw source volumes (~2.4 TB) mirrored on DDoSecrets and distributed by torrent
 - 🧅 Tor onion-service mirror of the live archive, independent of the clearnet
 - 📂 Guidance for connecting via Tor Browser and bridges
-
-</details>
-
-<details>
-<summary>🔏 <b>Verification and Integrity</b> — 6 capabilities</summary>
 
 - 🔏 Published GPG signing key and fingerprint
 - 🔏 Instructions for installing GPG
@@ -395,28 +346,17 @@
 - ⬇️ SHA256 checksum lists and signatures for verifying downloaded files
 - 🔹 Guidance for distinguishing official domains and mirrors from unofficial copies
 
-</details>
-
-<details>
-<summary>ℹ️ <b>About / Project Information</b> — 5 capabilities</summary>
-
 - 🔹 Statement of the project's mission and methodology
 - 👥 Listed recipients of submitted evidence (the International Criminal Court, the Hind Rajab Foundation, and the South African legal team at the ICJ)
 - 🔹 Social and contact channels (Twitter/X, Telegram, Instagram, YouTube)
 - 👥 Guidance for legal teams, journalists and researchers to request access to non-public archives
 - 🔹 Dedicated evidence-submission channel for sources
 
-</details>
-
-<details>
-<summary>🛠️ <b>Administration and Review</b> — 4 capabilities</summary>
-
 - 🔹 Admin login
 - 🔹 Review dashboard and review queue
 - 🔹 Duplicate-detection review
 - 🔹 Publish-to-live control
 
-</details>
 ---
 
 ---
