@@ -302,6 +302,26 @@
 
 ---
 
+## 🚧 Problems IntelSuite Fixes
+
+IntelSuite addresses the following underserved problems in existing OSINT, threat-intelligence and attack-surface intelligence workflows:
+
+1. **Fragmented Intelligence Collection** — Analysts must use multiple platforms, APIs, feeds and manual searches to assemble a complete intelligence picture.
+2. **Incomplete Attack Surface Discovery** — Discovered internet-facing assets can be difficult to attribute to their actual owners, business relationships and wider exposure.
+3. **Poor Cross-Source Visibility** — Related signals about the same threat or entity are spread across forums, messaging channels, malware samples, code repositories, DNS records and other sources.
+4. **Weak Historical Infrastructure Intelligence** — Investigators may lack a unified view of how IP addresses, domains, certificates, servers, ownership and hosting relationships have changed over time.
+5. **Limited Autonomous Investigation** — Analysts still spend significant time manually connecting findings across sources and building investigation reports.
+6. **Weak Threat Actor Attribution** — Aliases, shared infrastructure, false flags and misleading indicators make it difficult to attribute activity reliably.
+7. **Disconnected Vulnerability and Threat Context** — Vulnerability records are not always connected to observed exploitation, threat actors, campaigns, affected technologies and an organization's actual exposure.
+8. **Fragmented Campaign Reconstruction** — Evidence about infrastructure, malware, victims, tactics, techniques and procedures is scattered across indicators, reports and feeds.
+9. **False Positives and Unreliable Intelligence** — Indicators can be stale, reassigned, benign, misclassified or deliberately misleading, reducing confidence in intelligence findings.
+10. **Intelligence That Does Not Translate Into Action** — Findings may identify suspicious activity without clearly informing prioritization, remediation, detection or response.
+11. **Third-Party and Supply-Chain Blind Spots** — Organizations can lack visibility into security exposures across vendors, SaaS providers, subsidiaries, dependencies and other connected infrastructure.
+12. **Reactive Rather Than Predictive Intelligence** — Investigations often begin after an indicator or incident is detected, limiting visibility into emerging patterns and developing campaigns.
+13. **Difficult Intelligence Querying** — Analysts must navigate different search syntaxes, filters, query languages and platform-specific workflows to investigate across sources.
+
+---
+
 ## 🧾 Notes & Conventions
 
 - 🧩 Phrases such as *“where supported”*, *“where available”* and *“where implemented”* indicate capabilities that depend on the underlying data source, feed or deployment configuration.
